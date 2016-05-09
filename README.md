@@ -23,6 +23,123 @@ Go to `Preferences -> Browse Packages`, and then either download and unzip this 
 git clone https://github.com/node-base/sublime-text-base-snippets.git
 ```
 
+## Snippets
+
+**gen**
+
+Generator.
+
+```js
+'use strict';
+
+module.exports = function(app, base) {
+  app.task('default', function(cb) {
+    console.log('generator', app.name, '> task', this.name);
+    cb();
+  });
+};
+```
+
+**genemp**
+
+```js
+'use strict';
+
+module.exports = function(app, base) {
+  
+};
+```
+
+**app**
+
+Exported instance.
+
+```js
+'use strict';
+
+var App = require('base');
+var app = new App();
+
+app.task('default', function(cb) {
+  console.log('appfile.js', '> task', this.name);
+  cb();
+});
+
+module.exports = app;
+```
+
+**sub**
+
+Sub-generator.
+
+```js
+module.exports = function(app, base) {
+  
+};
+```
+
+**plugin**
+
+```js
+app.task('default', function(cb) {
+  
+  cb();
+});
+```
+
+**reg**
+
+```js
+app.register('name', function(app, base) {
+  
+});
+```
+
+**task**
+
+```js
+app.task('default', function(cb) {
+  
+  cb();
+});
+```
+
+**src**
+
+```js
+app.src('*.js')
+  .pipe(app.renderFile('*'))
+```
+
+**dest**
+
+```js
+.pipe(app.dest('dest'))
+```
+
+**emit**
+
+```js
+app.emit('name', 'value');
+```
+
+**on**
+
+```js
+app.on('name', function(value) {
+  
+});
+```
+
+**through**
+
+```js
+through.obj(function(file, enc, next) {
+  
+  next(null, file);
+})
+```
+
 ## Author
 
 **Jon Schlinkert**
