@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+app.on('${1:name}', function(${2:value}) {
+  ${3:}
+});
+]]></content>
+	<tabTrigger>app.on</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

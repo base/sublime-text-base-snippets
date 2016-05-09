@@ -1,0 +1,4 @@
+*.sublime-{project,workspace}
+*.cache
+tmp
+package-metadata.json

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+app.task('${1:default}', function(${2:cb}) {
+  ${4:}
+  ${3:cb();}
+});
+]]></content>
+	<tabTrigger>app.task</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

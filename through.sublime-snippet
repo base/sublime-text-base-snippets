@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+through.obj(function(file, enc, next) {
+  ${1:}
+  next(null, file);
+})
+]]></content>
+	<tabTrigger>through</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

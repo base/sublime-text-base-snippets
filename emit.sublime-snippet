@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+app.emit('${1:name}', '${1:value}');
+]]></content>
+	<tabTrigger>app.emit</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

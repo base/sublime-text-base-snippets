@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+'use strict';
+
+var App = require('base');
+var app = new App();
+
+app.task('${1:default}', function(${2:cb}) {
+  ${3:console.log('appfile.js', '> task', this.name);}
+  ${4:cb();}
+});
+
+module.exports = app;
+]]></content>
+	<tabTrigger>appfile</tabTrigger>
+	<scope>source.js</scope>
+</snippet>

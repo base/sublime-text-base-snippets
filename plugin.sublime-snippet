@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+'use strict';
+
+module.exports = function(options) {
+  return function(app, base) {
+    this.define('${1:name}', function() {
+      ${2:}
+    });
+  };
+};
+]]></content>
+  <tabTrigger>app.plugin</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

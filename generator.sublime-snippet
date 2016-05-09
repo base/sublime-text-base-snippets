@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+'use strict';
+
+module.exports = function(app, base) {
+  app.task('${1:default}', function(${2:cb}) {
+    ${3:console.log('generator', app.name, '> task', this.name);}
+    ${4:cb();}
+  });
+};
+]]></content>
+	<tabTrigger>appfile</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
