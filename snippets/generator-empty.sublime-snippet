@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+'use strict';
+
+module.exports = function(app, base) {
+  ${1:}
+};
+]]></content>
+  <description>empty</description>
+  <tabTrigger>genemp</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

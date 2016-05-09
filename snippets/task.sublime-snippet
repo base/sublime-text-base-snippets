@@ -5,6 +5,6 @@ app.task('${1:default}', function(${2:cb}) {
   ${3:cb();}
 });
 ]]></content>
-	<tabTrigger>app.task</tabTrigger>
+	<tabTrigger>task</tabTrigger>
 	<scope>source.js</scope>
 </snippet>

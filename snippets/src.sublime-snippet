@@ -3,6 +3,6 @@
 app.src('${1:*.js}')
   .pipe(app.${2:renderFile}('*'))
 ]]></content>
-	<tabTrigger>app.src</tabTrigger>
+	<tabTrigger>src</tabTrigger>
 	<scope>source.js</scope>
 </snippet>

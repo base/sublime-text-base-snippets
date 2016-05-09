@@ -4,6 +4,6 @@ app.register('${1:name}', function(app, base) {
   ${2:}
 });
 ]]></content>
-	<tabTrigger>app.register</tabTrigger>
+	<tabTrigger>reg</tabTrigger>
 	<scope>source.js</scope>
 </snippet>

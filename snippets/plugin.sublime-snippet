@@ -10,6 +10,6 @@ module.exports = function(options) {
   };
 };
 ]]></content>
-  <tabTrigger>app.plugin</tabTrigger>
+  <tabTrigger>plugin</tabTrigger>
   <scope>source.js</scope>
 </snippet>

@@ -2,6 +2,6 @@
 	<content><![CDATA[
 .pipe(app.dest('${1:dest}'))
 ]]></content>
-	<tabTrigger>app.dest</tabTrigger>
+	<tabTrigger>dest</tabTrigger>
 	<scope>source.js</scope>
 </snippet>

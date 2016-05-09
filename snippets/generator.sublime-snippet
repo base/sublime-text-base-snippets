@@ -9,6 +9,6 @@ module.exports = function(app, base) {
   });
 };
 ]]></content>
-	<tabTrigger>appfile</tabTrigger>
+	<tabTrigger>gen</tabTrigger>
 	<scope>source.js</scope>
 </snippet>
