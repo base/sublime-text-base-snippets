@@ -20,7 +20,7 @@ If you already have [Package Control](http://wbond.net/sublime_packages/package_
 Go to `Preferences -> Browse Packages`, and then either download and unzip this plugin into that directory, or:
 
 ``` bash
-git clone https://github.com/node-base/sublime-text-snippets-base.git
+git clone https://github.com/node-base/sublime-text-base-snippets.git
 ```
 
 ## Author
@@ -33,4 +33,4 @@ git clone https://github.com/node-base/sublime-text-snippets-base.git
 ## License
 
 Copyright © 2016, [Jon Schlinkert](https://github.com/jonschlinkert).
-Released under the [MIT license](https://github.com/verbose/verb/blob/master/LICENSE).
+Released under the [MIT license](LICENSE).
