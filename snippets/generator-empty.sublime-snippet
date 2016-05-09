@@ -7,6 +7,6 @@ module.exports = function(app, base) {
 };
 ]]></content>
   <description>empty</description>
-  <tabTrigger>genemp</tabTrigger>
+  <tabTrigger>gen</tabTrigger>
   <scope>source.js</scope>
 </snippet>

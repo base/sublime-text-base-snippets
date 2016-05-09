@@ -40,7 +40,7 @@ module.exports = function(app, base) {
 };
 ```
 
-**genemp**
+**gen empty**
 
 ```js
 'use strict';
